@@ -47,7 +47,20 @@ def binary_search(alist,key_value,pl,pr,pc,isTrue,index):
     elif mid_value == key_value: #찾음
         print("True",index)
 
-binary_init([1,2,3,5,8],) # false
-#binary_search([1,2,3,5,8],5) # true
-#binary_search([1,2,3,5,8],6) # false
+binary_init([1,2,3,5,8],4) # false
+binary_init([1,2,3,5,8],5) # true
 
+#bubble sort
+ def bubble_sort(alist):
+
+     for x in alist:
+         while True:
+             if len(alist) - 1 == 0:
+                 break
+
+
+
+
+
+
+bubble_sort([14,46,43,27,57,41,45,21,70])
